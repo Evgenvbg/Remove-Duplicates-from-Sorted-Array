@@ -15,6 +15,7 @@ public:
                 insertNum++;
             }
 
+
             return insertNum;
         }
         for (int i = 0; i < nums.size(); i++) {
@@ -25,7 +26,7 @@ public:
 
 int main()
 {
-    std::vector<int> vec{ 1,1,2,2,3,5,7 };
+    std::vector<int> vec{ 1,1,2,2,3,5 };
     Solution a;
     std::cout << a.removeDuplicates(vec);
 }
