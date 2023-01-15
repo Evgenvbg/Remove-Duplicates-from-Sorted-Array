@@ -15,7 +15,7 @@ public:
                 nums[insertNum] = nums[i];
                 insertNum++;
             }
-           
+        
         }
         return insertNum;
 
